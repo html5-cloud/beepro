@@ -24,3 +24,30 @@
     </ul>
   </footer>
 </div> -->
+
+<!-- views -->
+<div class="m-index">
+  <header>
+    <i></i>
+    <b><img src="/beepro/images/logo_home_header.png" alt="" /></b>
+    <i class="yo-ico">&#xe6fe;</i>
+  </header>
+  <nav>
+    <ul>
+      <li class="active">首页</li>
+      <li>新品</li>
+    </ul>
+  </nav>
+  <section>
+    aaa
+  </section>
+  <footer>
+    <ul>
+      <li><i class="yo-ico active">&#xe61a;</i><b class="active">首页</b></li>
+      <li><i class="yo-ico">&#xe680;</i><b>全部产品</b></li>
+      <li><i class="yo-ico">&#xe608;</i><b>闲逛</b></li>
+      <li><i class="yo-ico">&#xe628;</i><b>购物车</b></li>
+      <li><i class="yo-ico">&#xe623;</i><b>账户中心</b></li>
+    </ul>
+  </footer>
+</div>

@@ -7,7 +7,7 @@
 //
 //   // 定义插件
 //   plugins: ['delegated'],
-// 
+//
 //   // 装载子视图
 //   modules: [{
 //     name: 'content',
@@ -25,3 +25,9 @@
 //     }
 //   }
 // });
+
+
+var indexTpl=require("../tpls/index.string");
+SPA.defineView("index",{
+  html:indexTpl,
+})

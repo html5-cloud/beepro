@@ -35,3 +35,9 @@
 //     }
 //   }
 // });
+
+var homeTpl=require("../tpls/home.string");
+console.log(homeTpl);
+SPA.defineView("home",{
+  html:homeTpl,
+})

@@ -6,3 +6,9 @@
 // require('./views/search.js');
 // require('./views/my.js');
 // require('./views/home.js');
+
+require("libs/spa.min.js");
+
+// views
+require("views/index.js");
+require('views/home.js');

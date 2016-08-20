@@ -157,3 +157,96 @@
 //     }
 //   }
 // }
+
+//my
+
+.m-index{
+  width: 100%;
+  height: 100%;
+  @include flexbox();
+  @include flex-direction(column);
+  header{
+    width: 100%;
+    height: .44rem;
+    background-color: $base-color;
+    @include flexbox();
+    i{
+      width: .8rem;
+      &:last-child{
+        color: #fff;
+        font-size: .25rem;
+        text-align: center;
+        line-height: .44rem;
+      }
+    }
+    b{
+      @include flex();
+      @include flexbox();
+      @include align-items(center);
+      // background-image: url(/beepro/images/logo_home_header.png);
+      img{
+        width: 100%;
+
+      }
+    }
+  }
+  nav{
+    width: 100%;
+    height: .4rem;
+    background: #fff;
+    ul{
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      li{
+        @include flex();
+        text-align: center;
+        line-height: .4rem;
+        color:#979797;
+        box-sizing: border-box;
+        @include border(0 0 1px 0, #d9d9d9);
+        &.active{
+          border-bottom: 2px solid $base-color;
+          @include border(0);
+          color: $base-color;
+        }
+      }
+    }
+  }
+  section{
+      @include flex();
+      width: 100%;
+  }
+  footer{
+      width: 100%;
+      height: .44rem;
+      background: #fff;
+      ul{
+        width: 100%;
+        height: 100%;
+        @include flexbox();
+        li{
+          @include flex();
+          @include flexbox();
+          @include flex-direction(column);
+          i,b{
+            display: block;
+            width: 100%;
+            text-align: center;
+          }
+          i{
+            height: .28rem;
+            font-size: .2rem;
+          }
+          b{
+            font-weight: normal;
+            font-size: .12rem;
+            height: .16rem;
+          }
+          i.active,b.active{
+            color: $base-color;
+          }
+        }
+      }
+  }
+}
