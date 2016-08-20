@@ -1,5 +1,5 @@
-var indexMy = require('../tpls/my.string');
-
-SPA.defineView('my', {
-  html: indexMy
-});
+// var indexMy = require('../tpls/my.string');
+//
+// SPA.defineView('my', {
+//   html: indexMy
+// });
